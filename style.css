@@ -1,0 +1,164 @@
+@font-face {
+    font-family: StarJedi;
+    src: url("https://www.fontspace.com/star-jedi-font-f9641");
+}
+
+/*background functions*/
+
+body{
+    background-color: rgb(100, 100, 155);
+    background:url("images/grey.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+}
+
+#backgroundHome{
+    background-color: rgb(100, 100, 155);
+    background: url("images/grey.png");
+    /*Image: me (if no image, the image from the other body will over-ride the color)*/
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+}
+
+.backgroundDroid{
+    background-color: rgb(100, 100, 155);
+    background:url("images/background.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+}
+
+/*Text functions*/
+p{
+    color: white;
+    font-size: 125%;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: StarJedi;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+/*links*/
+.links:link{
+    color: rgb(0, 200, 0);
+}
+
+.links:visited{
+    color: rgb(255, 00, 00);
+}
+
+.links:active{
+    color: rgb(0, 0, 255);
+}
+
+.links:hover{
+    font-size: 120%;
+}
+
+/*Header functions*/
+.header{
+    background-color: rgb(0, 0, 100);
+    color: rgb(255,255,255);
+    font-size: 250%;
+    text-align: center;
+}
+.subheader{
+    margin-top: 0.5%;
+    background-color: rgb(50, 50, 150);
+    color: rgb(255,255,255);
+    font-size: 150%;
+    text-align: center;
+}
+
+/*links*/
+.headerLink{
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(255,255,255);
+}
+.headerLink:hover{
+    color: rgb(155, 0, 255);
+}
+.chosen{
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(255, 255, 55);
+}
+
+/*Home page table*/
+.table{
+    /*display:flex;*/
+    border-style: double;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 100);
+}
+
+.tableRow{
+    padding: 25px;
+    text-align: center;
+}
+
+.tableItem{
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: 0.7;
+}
+.tableItem:hover{
+    opacity: 1;
+}
+
+/*special text*/
+.small{
+    font-size: 60%;
+}
+
+.floatl{
+    float: left;
+    padding-right: 2%;
+}
+.floatr{
+    float: right;
+}
+.clearFloat{
+    clear: both;
+}
+.description{
+    padding: 10px;
+    padding-left: 55%;
+}
+.centers{
+    align-self: center;
+    padding: 5%;
+}
+.paragraph{
+    margin: 2%;
+}
+
+/*Text special formatting*/
+.headText{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+
+    border-style:outset;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: rgb(0, 255, 255);
+}
